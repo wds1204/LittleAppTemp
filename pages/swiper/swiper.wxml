@@ -1,0 +1,16 @@
+<view>
+  <swiper indicator-dots="true" autoplay="true" duration="1000">
+    <swiper-item>
+      <image src='http://imgcdn.guoku.com/images/33311e04698d30573d3a9a425b46187d.jpg' class='slide-image' width="355" height="250" ></image>
+    </swiper-item>
+    <swiper-item>
+    <image src='http://imgstore.cdn.sogou.com/app/a/100540002/856602.jpg' class='slide-image'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='http://i2.hoopchina.com.cn/blogfile/201411/14/BbsImg141593233752004_640*354.png' class='slide-image'></image>
+    </swiper-item>
+    <swiper-item>
+    <image src='http://f10.topitme.com/o088/10088418695e494d4c.jpg' class='slide-image'></image>
+    </swiper-item>
+  </swiper>
+</view>

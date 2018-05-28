@@ -1,0 +1,7 @@
+{
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "scrollview",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": true
+}

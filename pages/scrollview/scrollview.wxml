@@ -1,0 +1,25 @@
+<view>
+
+  <!--垂直滚动，这里必须设置高度-->
+  <view>
+    <scroll-view scroll-y="true" class='scroll-view-y' bindscrolltoupper='upper' bindscrolltolower="lower" bindscroll="scroll" scroll-top="{{scroollTop}}">
+      <view style="background: red; width: 100px; height: 100px"></view>
+      <view style="background: green; width: 100px; height: 100px"></view>
+      <view style="background: blue; width: 100px; height: 100px"></view>
+      <view style="background: yellow; width: 100px; height: 100px"></view>
+    </scroll-view>
+
+    <button type="primary" bindtap='tampMove'>滚动</button>
+  </view>
+  <view>
+    <!--水平滚动-->
+    <scroll-view scroll-x="true" style=" white-space: nowrap; display: flex">
+      <!-- display: inline-block-->
+      <view style="background: red; width: 200px; height: 100px; display: inline-block"></view>
+      <view style="background: green; width: 200px; height: 100px; display: inline-block"></view>
+      <view style="background: blue; width: 200px; height: 100px; display: inline-block"></view>
+      <view style="background: yellow; width: 200px; height: 100px; display: inline-block"></view>
+    </scroll-view>
+  </view>
+
+</view>
